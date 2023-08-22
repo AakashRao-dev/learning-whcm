@@ -1,0 +1,11 @@
+.button {
+  border: 0;
+  box-shadow: -4px -4px 10px #9c9c9c, 4px 4px 10px #9c9c9c;
+}
+
+@media (forced-colors: active) {
+  .button {
+    /* Use a border instead, since box-shadow is forced to 'none' */
+    border: 4px ButtonText solid;
+  }
+}
