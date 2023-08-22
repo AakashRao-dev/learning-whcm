@@ -44,7 +44,13 @@
         /* ..exisiting styles */
 
         /* Transparent border for visibility in WHCM */
-        border: 10px solid transparent;
+        border: 2px solid transparent;
+      }
+
+      @media screen and (forced-colors: active) {
+        ::-webkit-scrollbar-thumb {
+          background-color: ButtonText;
+        }
       }
     </style>
   </head>
