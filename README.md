@@ -2,6 +2,8 @@
 
 > Focuses on Accessibility, Usability and User Visual Preferences
 
+Lambdatest: <a href="https://www.lambdatest.com/blog/windows-high-contrast-mode/">Link to Blog</a>
+
 - using semantic html (to get better recognized for WHCM declared colors)
 - setting transparent values to border-outline-textDecoration
 - focusing on scrollbars
